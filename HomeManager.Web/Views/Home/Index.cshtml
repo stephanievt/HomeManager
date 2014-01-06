@@ -1,0 +1,36 @@
+﻿@model IList<HomeManager.Domain.Location>
+<!DOCTYPE html />
+<html lang="en">
+<head>
+<title>View Grocery Inventory</title>
+</head>
+<body>
+<HEADER>Inventory List</HEADER>
+<!-- TODO learn css or something to make these pages less ugly.-->
+
+<table>
+
+
+@foreach (var loc in Model) {
+    <tr>
+        <td colspan='3'>
+        @loc.Name</td>
+        <td>
+    </tr>
+    foreach (var item in loc.InventoryItems)
+    {
+        <tr>
+        <td>@item.Name</td>
+        <td>@item.Size</td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+        </td>
+        </tr>
+    }
+}
+
+</table>
+</body>
+</html>

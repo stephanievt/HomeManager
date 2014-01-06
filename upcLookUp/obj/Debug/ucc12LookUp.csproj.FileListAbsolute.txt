@@ -1,0 +1,12 @@
+C:\Users\SSTOWE\Dropbox\documents\HM\HomeManager\HomeManager\upcLookUp\bin\Debug\upcLookUp.dll.config
+C:\Users\SSTOWE\Dropbox\documents\HM\HomeManager\HomeManager\upcLookUp\bin\Debug\upcLookUp.dll
+C:\Users\SSTOWE\Dropbox\documents\HM\HomeManager\HomeManager\upcLookUp\bin\Debug\upcLookUp.pdb
+C:\Users\SSTOWE\Dropbox\documents\HM\HomeManager\HomeManager\upcLookUp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SSTOWE\Dropbox\documents\HM\HomeManager\HomeManager\upcLookUp\obj\Debug\upcLookUp.dll
+C:\Users\SSTOWE\Dropbox\documents\HM\HomeManager\HomeManager\upcLookUp\obj\Debug\upcLookUp.pdb
+C:\Users\SSTOWE\Dropbox\DevProjects\HomeManager\upcLookUp\bin\Debug\upcLookUp.dll.config
+C:\Users\SSTOWE\Dropbox\DevProjects\HomeManager\upcLookUp\bin\Debug\upcLookUp.dll
+C:\Users\SSTOWE\Dropbox\DevProjects\HomeManager\upcLookUp\bin\Debug\upcLookUp.pdb
+C:\Users\SSTOWE\Dropbox\DevProjects\HomeManager\upcLookUp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SSTOWE\Dropbox\DevProjects\HomeManager\upcLookUp\obj\Debug\upcLookUp.dll
+C:\Users\SSTOWE\Dropbox\DevProjects\HomeManager\upcLookUp\obj\Debug\upcLookUp.pdb

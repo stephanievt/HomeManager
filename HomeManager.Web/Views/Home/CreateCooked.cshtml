@@ -1,0 +1,76 @@
+﻿@model HomeManager.Domain.InventoryItem
+
+
+<h1>Create Home Made Inventory Item</h1>
+
+@using (Html.BeginForm("InventoryItem"))
+{
+   
+
+    <fieldset>
+        <legend>InventoryItem</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Added)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Added)
+            @Html.ValidationMessageFor(model => model.Added)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Location)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.Location.Id, new SelectList(ViewBag.Locations, "Id", "Name"))
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Size)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Size)
+            @Html.ValidationMessageFor(model => model.Size)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Instructions)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Instructions)
+            @Html.ValidationMessageFor(model => model.Instructions)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Count)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Count)
+            @Html.ValidationMessageFor(model => model.Count)
+        </div>
+
+
+        <p>@Html.ActionLink("Clear for New Item", "CreateCooked")
+        
+            
+        </p>
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+
+

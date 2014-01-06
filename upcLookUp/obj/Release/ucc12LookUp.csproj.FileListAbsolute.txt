@@ -1,0 +1,6 @@
+C:\Users\SSTOWE\Dropbox\documents\HM\upcLookUp\bin\Release\upcLookUp.dll.config
+C:\Users\SSTOWE\Dropbox\documents\HM\upcLookUp\bin\Release\upcLookUp.dll
+C:\Users\SSTOWE\Dropbox\documents\HM\upcLookUp\bin\Release\upcLookUp.pdb
+C:\Users\SSTOWE\Dropbox\documents\HM\upcLookUp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SSTOWE\Dropbox\documents\HM\upcLookUp\obj\Release\upcLookUp.dll
+C:\Users\SSTOWE\Dropbox\documents\HM\upcLookUp\obj\Release\upcLookUp.pdb
